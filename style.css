@@ -1,0 +1,89 @@
+/* 🌈 Body background */
+body {
+    background:rgb(252, 231, 0);
+    color: blue;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🧊 Main container */
+#container {
+    margin: 10%;
+    width: 90%;
+    max-width: 700px;
+}
+
+/* 🔠 Heading styles */
+#container h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 1000;
+    color: white;
+}
+
+/* 🎯 Span highlight in heading */
+#container h1 span {
+    color: chocolate;
+    border-bottom: 4px solid pink;
+    padding-bottom: 7px;
+}
+
+/* 💬 Input + image wrapper */
+#input_div {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: white;
+    color: #333;
+    display: flex;
+    padding: 26px 20px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🖊️ Input field styling */
+#input_id {
+    flex: 1;
+    font-size: 24px;
+    border: none;
+    outline: none;
+}
+
+/* 📋 Copy icon */
+#img1 {
+    width: 35px;
+    height: 5vh;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* ⚙️ Generate button */
+#btn {
+    border: 0;
+    outline: 0;
+    color: white;
+    background: purple;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+/* 🖱️ Hover effect */
+#btn:hover {
+    background: darkmagenta;
+}
+
+/* 🖼️ Icon inside button */
+#img2 {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
