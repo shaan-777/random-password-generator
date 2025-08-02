@@ -73,7 +73,6 @@ body {
     transition: 0.3s ease;
 }
 
-/* 🖱️ Hover effect */
 #btn:hover {
     background: darkmagenta;
 }
