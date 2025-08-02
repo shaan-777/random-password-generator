@@ -19,7 +19,6 @@ body {
     color: white;
 }
 
-/* 🎯 Span highlight in heading */
 #container h1 span {
     color: chocolate;
     border-bottom: 4px solid pink;
